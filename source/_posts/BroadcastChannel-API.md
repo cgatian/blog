@@ -4,7 +4,7 @@ date: 2016-09-19 20:28:50
 tags: JavaScript, Browser APIs
 ---
 
-Early last week, Chrome posted the new features coming in Chrome 54. One of the features that stood out was Broadcast channel.  This API facilitates communicate with other windows, tabs, and service workers running within the same origin.  It sounds oddly familiar to window.postMessage API, which allows you to do the same window to window communication.  The big difference here is, window.postMessage requires you to maintain a reference to the window you want to communicate with.
+Earlier last week, Chrome posted the new features coming in Chrome 54. One of the features that stood out was Broadcast channel.  This API facilitates communicate with other windows, tabs, and service workers running within the same origin.  It sounds oddly familiar to window.postMessage API, which allows you to do the same window to window communication.  The big difference here is, window.postMessage requires you to maintain a reference to the window you want to communicate with.
 
 ```javascript
 var popup = window.open('https://www.coolwebsite.com');

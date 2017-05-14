@@ -115,7 +115,7 @@ issues closed: <enter your issue number ie. #1>
 
 Notice the `CHANGELOG.md` and `package.json` version are unchanged.  The reason they haven't been updated is because we need to first cut a release. Let's do that now.
 
-* From your command line switch back to master by running `git branch master`
+* From your command line switch back to master by running `git checkout master`
 * Pull in your latest changes by running `git pull`
 * Run `npm run release`
 

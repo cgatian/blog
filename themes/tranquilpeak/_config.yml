@@ -64,7 +64,7 @@ sidebar:
         #     icon: github
         stack_overflow:
              title: global.stack_overflow
-             url: http://stackoverflow.com/users/684869/cgatian
+             url: http://stackoverflow.com/users/684869/cgatian?tab=profile
              icon: stack-overflow
         twitter:
              title: global.twitter
